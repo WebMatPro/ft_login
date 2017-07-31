@@ -1,20 +1,25 @@
 # ft_login
 
-### Prerequisites ###
+### Features ###
 
-What things you need to install this script them
+- Add Login panel after enter in the server
+- Block the acces (can't move)
+- Ask correct and match Login / Password
+- Can disconnect by button
+- Display Error or successful in chat message
 
-[mysql-async](https://github.com/FivemTools/fivem-mysql-async)
+
+Issue :
+- Not detect letter uppercase or lowercase for password
 
 
-### Installing ###
+Future add :
+- Register by simple script php by website
+- Permission by account (like whitelist)
+- Compatibility with the future ft_players
+- Better design with landing page
+... do you have suggestion ?
 
-1\  Put the folder where you want in the folder 'resources' and add it to your serveur.cfg file : 
-	
-	start ft_login
-	
-
-2\ Check database.sql file and follow the instructions
 
 
 ### Documentation ###
