@@ -23,8 +23,6 @@ AddEventHandler('ft_login:CheckServer', function( user, password )
     local result = MySQL.Sync.fetchAll("SELECT * FROM players WHERE login = @login AND BINARY password = @password", { ['@login'] = user, ['@password'] = password } )	-- get only matched login with password in table players
 	local Player = result[1]
 	
-	print(Player)
-	
     if Player == nil then -- If resultat exist
 
 		local ErrorMessage = "Player not exit or wrong password"		
