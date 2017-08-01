@@ -9,5 +9,6 @@ files({
     'client/html/index.html',
     'client/html/script.js',
     'client/html/style.css',
-    'client/html/cursor.png'
+    'client/html/images/cursor.png',
+	'client/html/images/pointer.png'
 })

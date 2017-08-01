@@ -15,7 +15,15 @@ function Click(x, y) {
     element.focus().click();
 }
 
-$(function() {
+$(function() {	
+	
+	$("button").mouseover(function(){
+		$("#cursor").css("background-image", "url(images/pointer.png)"); 
+	});	
+	$("button").mouseleave(function(){
+		$("#cursor").css("background-image", "url(images/cursor.png)");
+	});
+	  
     window.addEventListener('message', function(event) {
 		
         if ( event.data.type == 'EnableGuiLogin' ) {

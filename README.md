@@ -9,16 +9,12 @@
 - Display Error or successful in chat message
 
 
-Issue :
-- Not detect letter uppercase or lowercase for password
-
-
 Future add :
 - Register by simple script php by website
 - Permission by account (like whitelist)
 - Compatibility with the future ft_players
 - Better design with landing page
-... do you have suggestion ?
+- ... do you have suggestion ?
 
 
 

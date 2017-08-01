@@ -20,12 +20,12 @@ end)
 -- Event click button leave server
 AddEventHandler('ft_login:CheckServer', function( user, password )	
 
-    local result = MySQL.Sync.fetchAll("SELECT * FROM players WHERE login = @login AND password = @password", { ['@login'] = user, ['@password'] = password } )	-- get only matched login with password in table players
-	local Player = result[1]
+    local result = MySQL.Sync.fetchAll("SELECT * FROM players WHERE login = @login AND BINARY password = @password", { ['@login'] = user, ['@password'] = password } )	-- get only matched login with password in table players	
+    local Player = result[1]
 	
     if Player == nil then -- If resultat exist
 
-		local ErrorMessage = "Player not exit in database"		
+		local ErrorMessage = "Player not exists or wrong password"		
 		TriggerClientEvent('ft_login:ErrorMessageClientInChat', -1, ErrorMessage) -- go to client event
 	
 	else -- otherwise

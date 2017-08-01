@@ -6,7 +6,7 @@
 
 /** if you never or don't want to use my resource without ft_gamemode **/
 
-CREATE TABLE IF NOT EXISTS `player` (
+CREATE TABLE IF NOT EXISTS `players` (
   `login` varchar(255) DEFAULT NULL,
   `password` varchar(255) DEFAULT NULL
 );
