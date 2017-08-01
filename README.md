@@ -11,9 +11,10 @@
 
 Future add :
 - Register by simple script php by website
-- Permission by account (like whitelist)
+- Creation table mysql automatical to launch server
+- Permission level by account
 - Compatibility with the future ft_players
-- Better design with landing page
+- Better design and add landing page
 - ... do you have suggestion ?
 
 
