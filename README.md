@@ -1,4 +1,6 @@
-# ft_login
+-- @Project: FiveM Tools
+-- @License: GNU General Public License v3.0
+
 
 ### Features ###
 

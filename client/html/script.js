@@ -1,3 +1,9 @@
+/*
+-- @Project: FiveM Tools
+-- @License: GNU General Public License v3.0
+*/
+
+
 var documentWidth = document.documentElement.clientWidth;
 var documentHeight = document.documentElement.clientHeight;
 

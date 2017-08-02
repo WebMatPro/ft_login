@@ -1,7 +1,5 @@
-/**
- * @Project: FiveM Tools - Login
- * @License: GNU General Public License v3.0
- */
+-- @Project: FiveM Tools
+-- @License: GNU General Public License v3.0
 
 
 /** if you never or don't want to use my resource without ft_gamemode **/

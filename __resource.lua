@@ -1,3 +1,7 @@
+-- @Project: FiveM Tools
+-- @License: GNU General Public License v3.0
+
+
 client_script('client/client.lua')
 
 server_script('server/server.lua')

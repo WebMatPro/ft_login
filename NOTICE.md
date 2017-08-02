@@ -1,3 +1,7 @@
+-- @Project: FiveM Tools
+-- @License: GNU General Public License v3.0
+
+
 ### Prerequisites ###
 
 What things you need to install this script them

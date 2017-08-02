@@ -1,4 +1,6 @@
-<<<<<<< HEAD
+-- @Project: FiveM Tools
+-- @License: GNU General Public License v3.0
+
 
 --print("server file loaded !") -- debug
 

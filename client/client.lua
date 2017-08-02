@@ -1,3 +1,6 @@
+-- @Project: FiveM Tools
+-- @License: GNU General Public License v3.0
+
 
 local ft_login = true -- true = enable mod or use false to disabled mod
 
