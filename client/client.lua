@@ -1,4 +1,4 @@
--- @Project: FiveM Tools
+-- @Project: FiveM Tools ft_login
 -- @License: GNU General Public License v3.0
 
 
@@ -51,7 +51,7 @@ end)
 -- Call login button
 RegisterNUICallback('ft_login:LoginServer', function(data)
 
-	local user = data.username
+	local username = data.username
 	local password = data.password
 
 	TriggerServerEvent( 'ft_login:CheckServer', user, password ) -- sent to server the local string from data. json
