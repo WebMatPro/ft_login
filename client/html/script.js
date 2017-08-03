@@ -21,14 +21,7 @@ function Click(x, y) {
     element.focus().click();
 }
 
-$(function() {	
-	
-	$("button").mouseover(function(){
-		$("#cursor").css("background-image", "url(images/pointer.png)"); 
-	});	
-	$("button").mouseleave(function(){
-		$("#cursor").css("background-image", "url(images/cursor.png)");
-	});
+$(function() {		
 	  
     window.addEventListener('message', function(event) {
 		
@@ -50,6 +43,14 @@ $(function() {
         UpdateCursorPos();
     });
 
+	$("button").mouseover(function(){
+		$("#cursor").attr('src', 'images/pointer.png');
+	});	
+	$("button").mouseleave(function(){
+		$("#cursor").attr('src', 'images/cursor.png');
+	});	
+	
+	
     /*document.onkeyup = function (data) { // ONLY FOR DEBUGG
        if (data.which == 27) { // Escape key
             $.post('http://ft_login/escape', JSON.stringify({}));

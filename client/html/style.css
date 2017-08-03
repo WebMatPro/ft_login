@@ -4,26 +4,20 @@
 */
 
 
+
+
 body {
     font-family: sans-serif;
     overflow: hidden;
     display: none;
-	position: absolute;
-	width: 100%;
-	height: 100%;
 }
 
 a:hover, button:hover {
-	transition: 0.15s;
+	transition: 0.1s;
 	cursor: pointer;
 }
 
 #cursor {
-	width: 16px;
-    height: 16px;
-	margin-left: -7px;
-	margin-top: -7px;
-    background-image: url(images/cursor.png);
     position: absolute;
     z-index: 999999;
     display: none;
@@ -31,10 +25,9 @@ a:hover, button:hover {
 
 .dialog {
     width: 300px;
-    /*position: absolute;
+    position: absolute;
     left: 50%;
-    transform: translateX(-50%);*/
-	margin: auto;
+    transform: translateX(-50%);
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.5);
 }
@@ -47,13 +40,12 @@ input[type=text], input[type=password] {
     width: 100%;
     padding: 10px;
 }
-
 button {
     display: block;
     margin-top: 5px;
     padding: 10px;
     background-color: #286090;
-    border: none;
+    border: 0;
     color: #fff;
     width: 100%;
 	outline: none;
