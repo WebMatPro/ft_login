@@ -54,7 +54,7 @@ RegisterNUICallback('ft_login:LoginServer', function(data)
 	local username = data.username
 	local password = data.password
 
-	TriggerServerEvent( 'ft_login:CheckServer', user, password ) -- sent to server the local string from data. json
+	TriggerServerEvent( 'ft_login:CheckServer', username, password ) -- sent to server the local string from data. json
 	
     --PrintChatMessage(data.username .. " - " .. data.password)	-- debug	
 end)
