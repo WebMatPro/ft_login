@@ -8,7 +8,7 @@
 - Block the acces (can't move)
 - Ask correct and match Login / Password
 - Can disconnect by button
-- Display Error or successful in chat message
+- Display Error or successful in notification
 
 
 Future add :
