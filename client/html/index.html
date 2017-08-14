@@ -7,23 +7,26 @@
 <html>
     <head>
         <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+		<script src="https://code.angularjs.org/snapshot/angular.min.js"></script>
+		<script src="script.js" type="text/javascript"></script>
         <link href="style.css" rel="stylesheet" type="text/css" />
     </head>
-    <body>
-        
-		<img id="cursor" src="images/cursor.png">
 
+    <body ng-app="nui" ng-controller="nuiController" ng-mousemove="onMouseMove($event)">    
+		
+		<!--<img id="cursor" src="images/cursor.png">-->
+		<!--<img id="cursor" src="images/cursor.png" ng-style="{'left': cursor.x, 'top': cursor.y}">-->
+		
         <div class="dialog">
 		
-            <form id="login-form">
+            <div id="login-form">
                 <input id="username" type="text" placeholder="Username/Email Address"><br>
                 <input id="password" type="password" placeholder="Password"><br>
-                <button id="submit" type="submit">Log In</button>
-				<button id="leave">Disconnect me</button>
-            <form>	
+                <button id="submit" ng-click="submitEnter($event)" ng-mouseenter="startHover($event)" ng-mouseleave="stopHover($event)">Log In</button>
+				<button id="leave" ng-click="submitLeave($event)"  ng-mouseenter="startHover($event)" ng-mouseleave="stopHover($event)">Disconnect me</button>
+            <div>	
 			
-        </div>
+        </div>        
         
-        <script src="script.js" type="text/javascript"></script>
     </body>
 </html>
