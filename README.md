@@ -23,7 +23,7 @@ Future add :
 
 ### Documentation ###
 
-[Wiki](https://github.com/FivemTools/ft_login/wiki)
+[Wiki](https://github.com/MatPain/ft_login/wiki)
 
 
 ## License ##
